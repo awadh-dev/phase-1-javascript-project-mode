@@ -1,0 +1,20 @@
+{
+  "name": "phase-1-javascript-project-mode",
+  "version": "1.0.0",
+  "description": "Bookstore Web App Name: [Muhammad Awadh]",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awadh-dev/phase-1-javascript-project-mode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awadh-dev/phase-1-javascript-project-mode/issues"
+  },
+  "homepage": "https://github.com/awadh-dev/phase-1-javascript-project-mode#readme"
+}

@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #016936;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #dark-mode-toggle {
+    background: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #dark-mode-toggle:hover {
+    background: #ddd;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  .search-bar input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  .search-bar button {
+    padding: 10px;
+    background-color: #016936;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .search-bar button:hover {
+    background-color: #014d27;
+  }
+  
+  /* Books Section */
+  .books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .book {
+    background: white;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  .book img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .book h3 {
+    font-size: 18px;
+    color: #016936;
+  }
+  .book p {
+    font-size: 16px;
+    color: #555;
+  }
+  .add-to-cart {
+    background-color: #016936;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  .add-to-cart:hover {
+    background-color: #014d27;
+  }
+  
+  /* Cart Section */
+  .cart-section {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #checkout-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 100%;
+  }
+  #checkout-btn:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+  }
+  .remove-item {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #222;
+    color: white;
+  }
+  .dark-mode .book {
+    background-color: #333;
+    color: white;
+  }
+  .dark-mode .cart-section {
+    background-color: #333;
+  }
